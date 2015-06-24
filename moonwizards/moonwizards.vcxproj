@@ -75,10 +75,12 @@
   <ItemGroup>
     <ClCompile Include="BaseApp.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TutApp.cpp" />
     <ClCompile Include="TutorialApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseApp.hpp" />
+    <ClInclude Include="TutApp.hpp" />
     <ClInclude Include="TutorialApplication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -24,12 +24,18 @@
     <ClCompile Include="BaseApp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TutApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseApp.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="TutorialApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TutApp.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

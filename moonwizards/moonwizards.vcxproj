@@ -74,13 +74,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BaseApp.cpp" />
-    <ClCompile Include="BaseApplication.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TutorialApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseApp.hpp" />
-    <ClInclude Include="BaseApplication.h" />
     <ClInclude Include="TutorialApplication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

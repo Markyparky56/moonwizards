@@ -47,5 +47,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />
+    <None Include="..\Debug\plugins_d.cfg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\Debug\resources_d.cfg">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

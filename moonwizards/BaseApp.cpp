@@ -64,7 +64,7 @@ bool BaseApp::configure()
     {
         // If returned true, user clicked OK so initalise
         // Here we choose to let the system create a default rendering window by passing 'true'.
-        *mWindow = *mRoot->initialise(true, "Render Window");
+        mWindow = mRoot->initialise(true, "Render Window");
 
         return true;
     }

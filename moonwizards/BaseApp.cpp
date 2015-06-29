@@ -28,7 +28,7 @@ BaseApp::BaseApp()
     mOverlaySystem(0)
 {
 #if OGRE_PLATFORM == OGRE_PLATFORM_APPLE
-    m_ResourcePath = Ogre::maxBundlePart + "/Contents/Resources/";
+    m_ResourcePath = Ogre::maxBundlePath() + "/Contents/Resources/";
 #else
     m_ResourcePath = "";
 #endif

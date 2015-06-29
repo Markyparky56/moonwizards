@@ -93,29 +93,29 @@ protected:
     Ogre::Camera*               mCamera;
     Ogre::SceneManager*         mSceneMgr;
     Ogre::RenderWindow*         mWindow;
-    Ogre::String               mResourcesCfg;
-    Ogre::String               mPluginsCfg;
-    
+    Ogre::String                mResourcesCfg;
+    Ogre::String                mPluginsCfg;
+
     Ogre::OverlaySystem*        mOverlaySystem;
-    
+
     // OgreBites
     OgreBites::InputContext     mInputContext;
-    OgreBites::SdkTrayManager*  mTrayMgr;
-    OgreBites::SdkCameraMan*    mCameraMan;         // Basic Camera Controller
-    OgreBites::ParamsPanel*     mDetailsPanel;      // Sample details panel
-    bool                        mCursorWasVisible;  // Was cursor visible before dialog appeared?
+    OgreBites::SdkTrayManager*	mTrayMgr;
+    OgreBites::SdkCameraMan*    mCameraMan;     	// Basic camera controller
+    OgreBites::ParamsPanel*     mDetailsPanel;   	// Sample details panel
+    bool                        mCursorWasVisible;	// Was cursor visible before dialog appeared?
     bool                        mShutDown;
 
-    // OIS Input devices
+    //OIS Input devices
     OIS::InputManager*          mInputManager;
     OIS::Mouse*                 mMouse;
     OIS::Keyboard*              mKeyboard;
 
-    // For Mac Compatibility
-    Ogre::String                m_ResourcePath;
+    // Added for Mac compatibility
+    Ogre::String                 m_ResourcePath;
 
 #ifdef OGRE_STATIC_LIB
-    Ogre::StaticPluginLoader    m_StaticPluginLoader;
+    Ogre::StaticPluginLoader m_StaticPluginLoader;
 #endif
 };
 #endif // BASEAPP_H
